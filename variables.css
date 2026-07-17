@@ -1,0 +1,9 @@
+:root {
+    --page-background: #f8f4ec;
+    --text-color: #2f261f;
+    --font-stack: Georgia, "Times New Roman", serif;
+    --cheese-color: #f5b942;
+    --content-width: 30rem;
+    --accent-color:var(#4b3321);
+    --warning-background: #fff4dc;
+}

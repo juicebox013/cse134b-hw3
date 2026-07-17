@@ -1,0 +1,101 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: var(--font-stack);
+    color: var(--text-color);
+    line-height: 1.5;
+    background: var(--page-background);
+    padding: 2rem 5%;
+}
+
+header,
+main,
+body > footer {
+    max-width: var(--content-width);
+    margin-inline: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgba(52, 27, 11, 0.863);
+}
+
+header p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5em;
+    color: var(--cheese-color);
+}
+
+section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+[lang="latin"] {
+    font-style: italic;
+    font-weight: bold;
+}
+
+dt {
+    color: var(--cheese-color);
+}
+
+[type="text"] {
+    padding: 0.5em;
+    border: 1px solid var(--accent-color);
+}
+
+#warning {
+    border: 2px solid var(--text-color);
+    padding: 1em;
+    background-color: rgba(213, 175, 144, 0.875);
+}
+
+dt + dd {
+    padding-left: 1em;
+    border-left: 2px solid var(--accent-color);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input:focus,
+button:focus,
+a:focus {
+    outline: 2px solid var(--accent-color);
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+dt::before {
+    content: "🧀 ";
+}
+
+blockquote {
+    background: #f5e9b8;
+    border-left: 0.25em solid orange;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+blockquote p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 0.75em;
+}
+
+blockquote footer {
+    font-size: 0.8rem;
+    font-style: italic;
+}
